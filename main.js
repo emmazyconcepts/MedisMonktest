@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.getElementById("loader").classList.add("img");
   }
 
-  setTimeout(vanish, 500);
+  setTimeout(vanish, 5000);
 
   function getCoordinates(coordinatesArray, pageId) {
     return `-${coordinatesArray[pageId]}`;
