@@ -5,6 +5,11 @@
 
     <title>Meida.Monks</title>
     <link rel="icon" href="./assets/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <link rel="stylesheet" href="./style.css" />
     <script src="main.js"></script>
   </head>
@@ -17,17 +22,67 @@
           />
         </div>
       </div>
-      <div class="popOver">
-        <img src="./assets/images/monk.png" alt="monk reading" class="test" />
-      </div>
-      <div class="text">
-        <h1>patience!</h1>
+      <div class="preload-div">
+        <div class="popOver">
+          <img
+            src="./assets/images/monk.png"
+            alt="monk reading"
+            class="img-animation"
+          />
+        </div>
       </div>
 
-      <!-- <h1><span></span></h1> -->
+      <div class="preload-div2 line">
+        <h1>
+          <span></span>
+        </h1>
+      </div>
     </div>
     <div class="img">
-      <img src="https://source.unsplash.com/200x200" alt="" />
+      <!-- logo -->
+      <img class="monk_logo" src="./assets/images/logo.svg" />
+      <!-- background -->
+      <div class="bg_div">
+        <img id="bg_image" src="./assets/images/background.jpg" />
+      </div>
+
+      <ul id="content_nav">
+        <li>
+          <a href="#" onclick="return false;"><p id="0"></p></a>
+        </li>
+        <li>
+          <a href="#" onclick="return false;"><p id="1">1</p></a>
+        </li>
+        <li>
+          <a href="#" onclick="return false;"><p id="2">2</p></a>
+        </li>
+        <li>
+          <a href="#" onclick="return false;"><p id="3">3</p></a>
+        </li>
+        <li>
+          <a href="#" onclick="return false;"><p id="4">4</p></a>
+        </li>
+        <li>
+          <a href="#" onclick="return false;"><p id="5">5</p></a>
+        </li>
+        <li>
+          <a href="#" onclick="return false;"><p id="6">6</p></a>
+        </li>
+        <li>
+          <a href="#" onclick="return false;"><p id="7">7</p></a>
+        </li>
+        <li>
+          <a href="#" onclick="return false;"><p id="8">8</p></a>
+        </li>
+        <li>
+          <a href="#" onclick="return false;"><p id="9"></p></a>
+        </li>
+      </ul>
+
+      <!-- arrrows  -->
+
+      <div id="back_arrow">&#8249;</div>
+      <div id="front_arrow">&#8250;</div>
     </div>
   </body>
 </html>
